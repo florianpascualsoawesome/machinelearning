@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Set these paths appropriately
+
+BIN=/auto_home/rcolin/Documents/M1/HMIN208/Project/lib/bin
+CMD=/auto_home/rcolin/Documents/M1/HMIN208/Project/lib/cmd
+LIB=/auto_home/rcolin/Documents/M1/HMIN208/Project/lib/lib
+
+OPTIONS="-token -lemma -sgml"
+
+TOKENIZER=${CMD}/utf8-tokenize.perl
+TAGGER=${BIN}/tree-tagger
+ABBR_LIST=${LIB}/spanish-abbreviations
+PARFILE=${LIB}/spanish-ancora-utf8.par
+
+$TOKENIZER -a $ABBR_LIST $* |
+$TAGGER $OPTIONS $PARFILE

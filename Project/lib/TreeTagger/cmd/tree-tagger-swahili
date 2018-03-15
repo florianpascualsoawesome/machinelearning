@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Set these paths appropriately
+
+BIN=/auto_home/rcolin/Documents/M1/HMIN208/Project/lib/bin
+CMD=/auto_home/rcolin/Documents/M1/HMIN208/Project/lib/cmd
+LIB=/auto_home/rcolin/Documents/M1/HMIN208/Project/lib/lib
+
+OPTIONS="-token -lemma -sgml"
+
+TAGGER=${BIN}/tree-tagger
+TOKENIZER=${CMD}/tokenize.pl
+ABBR_LIST=${LIB}/swahili-abbreviations
+PARFILE=${LIB}/swahili.par
+
+$TOKENIZER -a $ABBR_LIST $* |
+$TAGGER $OPTIONS $PARFILE
