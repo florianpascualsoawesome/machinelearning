@@ -3,7 +3,7 @@ import java.nio.charset.Charset;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Arrays;
+/*import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Matcher;
@@ -16,13 +16,13 @@ import org.annolab.tt4j.TreeTaggerWrapper;
 import org.apache.commons.io.Charsets;
 import org.apache.commons.io.FileUtils;
 
-import java.nio.file.Files;
+import java.nio.file.Files;*/
 
 
 public class WordProcessing {
 
 
-	private String datasetFile;
+	/*private String datasetFile;
     private String classFile;
 
 	private String lemmaFile;
@@ -32,21 +32,15 @@ public class WordProcessing {
 	private String positivewordsfile;
 	private  String negativewordsfile;
 
-	/**
-	 *
-	 */
+
 	private ArrayList<ArrayList<String>> lines;
 
 	private ArrayList<Integer> lines_class;
 
-	/**
-	 *
-	 */
+
 	private ArrayList<ArrayList<TT_Position>> lines_pos;
 
-	/**
-	 *
-	 */
+
 	private static TreeTaggerWrapper<String> tt;
 
 	private ArrayList<Integer> lines_weights;
@@ -74,7 +68,7 @@ public class WordProcessing {
 
 		if(! readFromFile){
             loadTT();
-            clean();
+            //clean();
             loadFile();
         }
         else{
@@ -83,10 +77,10 @@ public class WordProcessing {
 
 	}
 
-	private void clean(){
+	public void clean(){
 		try{
 			String text = FileUtils.readFileToString(new File(datasetFile),Charsets.UTF_8);
-			String[] to_destroy_chars={"'","--"};
+			String[] to_destroy_chars={"'","--","-"};
 		    for(String str : to_destroy_chars){
 		    	if(text.contains(str)){
 					text=text.replaceAll(str,"");
@@ -103,13 +97,15 @@ public class WordProcessing {
         try{
             BufferedReader lemmaFileReader=new BufferedReader(new FileReader(lemmaFile));
             BufferedReader weightFileReader=new BufferedReader(new FileReader(weightFile));
-            BufferedReader classFileReader=new BufferedReader(new FileReader(classFile));
+           // BufferedReader classFileReader=new BufferedReader(new FileReader(classFile));
             boolean read=true;
             while(read){
                 String lemmaFileLine=lemmaFileReader.readLine();
                 String weightFileLine=weightFileReader.readLine();
-                String classFileLine=classFileReader.readLine();
-                read=(lemmaFileLine != null && weightFileLine != null && classFileLine != null);
+                //String classFileLine=classFileReader.readLine();
+                read=(lemmaFileLine != null && weightFileLine != null
+						//&& classFileLine != null
+				);
                 if(read){
 
                     lines_pos.add( new ArrayList<>());
@@ -120,7 +116,7 @@ public class WordProcessing {
                     text_size+=lemmaFileLine.length();
 
                     lines_weights.add(Integer.parseInt(weightFileLine));
-                    lines_class.add(Integer.parseInt(classFileLine));
+                    //lines_class.add(Integer.parseInt(classFileLine));
                 }
                 //String weightFileReader=new
             }
@@ -130,9 +126,7 @@ public class WordProcessing {
         }
     }
 
-	/**
-	 *
-	 */
+
 	private void loadTT(){
 		tt = new TreeTaggerWrapper<String>();
 		System.setProperty("treetagger.home","lib/TreeTagger");
@@ -144,30 +138,10 @@ public class WordProcessing {
 		}
 	}
 
-	/**
-	 *
-	 */
-	public void loadFile(){
-		try {
-			FileUtils.readLines(new File(datasetFile), Charsets.UTF_8).forEach(line -> {
-				lines.add( new ArrayList<>(Arrays.asList(line.split(" "))));
-				text_size+=line.length();
-			});
-			FileUtils.readLines(new File(classFile),Charsets.UTF_8).forEach(line -> {
-			    lines_class.add(Integer.parseInt(line));
-            });
-			System.out.println("Data loaded with succes : "+lines.size() +" lines, size :"+text_size);
-			//lines.forEach(line -> System.out.println(line));
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
-
 	public void processAnnotation(){
 
 		for(int i=0;i<lines.size();i++){
-			process(lines.get(i));
+			//process(lines.get(i));
 		}
 
         try {
@@ -211,8 +185,8 @@ public class WordProcessing {
 		StringBuilder textefinal = new StringBuilder();
 		for(int i=0;i<lines.size();i++){
 			ArrayList<TT_Position> line_pos=lines_pos.get(i);
-			for(int j=0;j<lines.get(i).size();j++){
-				if(! stop_words_set.contains(line_pos.get(j).getPos()){
+			for(int j=0;j<line_pos.size();j++){
+				if(! stop_words_set.contains(line_pos.get(j).getPos())){
 					textefinal.append(line_pos.get(j).getLemma());
 				}
 			}
@@ -226,28 +200,11 @@ public class WordProcessing {
 
 	}
 
-	/**
-	 *
-	 * @param line
-	 */
-	private void process(ArrayList<String> line){
-		ArrayList<TT_Position> positions=new ArrayList<>();
-		tt.setHandler((token, pos, lemma) -> {
-			positions.add(new TT_Position(pos, lemma));
-		});
-		try {
-			tt.process(line);
-			lines_pos.add(positions);
-		}
-		catch (IOException | TreeTaggerException e) {
-			e.printStackTrace();
-		}
-	}
 
 	public void buildWeight(){
 
-		/*="positive-words.txt";
-		String ="negative-words.txt";*/
+		="positive-words.txt";
+		String ="negative-words.txt";
 
 		try {
 			positivewords = new HashSet<>(FileUtils.readLines(new File(positivewordsfile),Charsets.UTF_8));
@@ -277,7 +234,6 @@ public class WordProcessing {
 
 	public void buildWeight2(String weightFile){
 		try{
-			System.out.println(negativewords.contains("unable"));
 			for (String line : FileUtils.readLines(new File(weightFile), Charsets.UTF_8)) {
 				Pattern ptn = Pattern.compile("\\s+");
 				Matcher match = ptn.matcher(line);
@@ -287,7 +243,7 @@ public class WordProcessing {
 				/*for(String part : parts){
 					System.out.print(part+",");
 				}
-				System.out.println();*/
+				System.out.println();
 				String pos=parts[0];
 				double posScore= Double.parseDouble(parts[2]);
 				double negScore= Double.parseDouble(parts[3]);
@@ -310,7 +266,8 @@ public class WordProcessing {
             fileWriter.write("@RELATION " + "Opinion\n" );
             fileWriter.write("@ATTRIBUTE " + "Context string\n" );
             fileWriter.write("@ATTRIBUTE " + "Label NUMERIC\n" );
-            fileWriter.write("@ATTRIBUTE " + "Class {1,-1}\n");
+			fileWriter.write("@ATTRIBUTE " + "Class {1,-1,?}\n");
+
             fileWriter.write("@DATA\n");
 
             for(int i=0;i<lines_pos.size();i++){
@@ -319,7 +276,10 @@ public class WordProcessing {
                 for(TT_Position tt_position : line_positions){
                     fileWriter.write(tt_position.getLemma() + " ");
                 }
-                fileWriter.write("',"+lines_weights.get(i)+","+ lines_class.get(i)+"\n");
+                fileWriter.write("',"+lines_weights.get(i)+","
+						+"?"
+						//+ lines_class.get(i)
+						+"\n");
             }
 
             fileWriter.close();
@@ -343,6 +303,29 @@ public class WordProcessing {
 		return sb.toString();
 	}
 
+	public static void extractResults(String prediction_file, int beginLine, int endLine, String outputFule){
+		try{
+			int lineIdx=1;
+			ArrayList<Integer> results=new ArrayList<>();
+			FileWriter fileWriter=new FileWriter(outputFule);
+			for(String line : FileUtils.readLines(new File(prediction_file), Charsets.UTF_8)) {
+				if(lineIdx>= beginLine && lineIdx <= endLine){
+					String result_str= line.split(":")[2];
+					String str = ( result_str.charAt(0) == '-') ? result_str.substring(0,2) : result_str.substring(0,1);
+					results.add(Integer.parseInt(str));
+				}
+				lineIdx++;
+			}
+			System.out.println(results.size());
+			for(Integer res : results){
+				fileWriter.write(res+"\n");
+			}
+			fileWriter.close();
+		}
+		catch(IOException e){
+			e.printStackTrace();
+		}
+	}*/
 
 
 

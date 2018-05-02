@@ -1,5 +1,6 @@
 
 public class TT_Position {
+
 	private String pos;
 	private String lemma;
 	public String getPos() {
@@ -8,6 +9,8 @@ public class TT_Position {
 	public String getLemma() {
 		return lemma;
 	}
+
+
 	public TT_Position(String pos, String lemma) {
 		super();
 		this.pos = pos;

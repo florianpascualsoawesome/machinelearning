@@ -1,438 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="machinelearning:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0e9750d3-8d6c-4dbc-9223-a8e2148d7499" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_6_javadoc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_annolab_tt4j_1_2_1_javadoc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByeStepWords/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByeStepWords/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByeStepWords/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByeStepWords/bin/ByeStepWords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByeStepWords/dataset_lemma.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByeStepWords/dataset_pos.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByeStepWords/resultat.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByeStepWords/src/ByeStepWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Covert/bin/Converter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Covert/bin/NegPosWords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Covert/bin/dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Covert/bin/datasetArff2.arff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Covert/bin/labels.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Covert/bin/negative-words.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Covert/bin/positive-words.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Covert/src/Converter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Covert/src/NegPosWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Covert/src/dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Covert/src/datasetArff2.arff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Covert/src/labels.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Covert/src/negative-words.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Covert/src/positive-words.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/bin/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/bin/TT_Position.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/bin/WordProcessing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/datas/WekaManual-3-8-2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/datas/dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/datas/dataset_lemma.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/datas/dataset_pos.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/datas/labels.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/datas/opinion-lexicon-English/negative-words.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/datas/opinion-lexicon-English/positive-words.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/datas/weka-3-8-2.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/COPYRIGHT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/FILES" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/README.script" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/bin/separate-punctuation" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/bin/train-tree-tagger" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/bin/tree-tagger" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/bin/tree-tagger-flush" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/#tree-tagger-danish#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/add-korean-sentence-markers.pl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/chunker-read-lemma.perl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/chunker-write-lemma.perl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/filter-chunker-output-french.perl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/filter-chunker-output-german.perl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/filter-chunker-output.perl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/filter-coordinate-output.perl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/filter-german-tags" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/greek-mwls.pl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/lookup.perl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/mwl-lookup.perl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/portuguese-post-tagging" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/portuguese-splitter.perl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/reformat-korean-tagger-output.pl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/split-romanian.perl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tagger-chunker-english" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tagger-chunker-french" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tagger-chunker-german" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tagger-chunker-spanish" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tokenize-korean.pl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tokenize.pl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-bulgarian" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-catalan" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-czech" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-danish" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-dutch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-english" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-estonian" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-finnish" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-french" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-galician" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-german" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-greek" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-italian" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-korean" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-latin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-middle-high-german" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-polish" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-portuguese" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-portuguese-finegrained" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-portuguese2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-romanian" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-russian" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-slovak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-slovenian" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-spanish" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-spanish-ancora" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/tree-tagger-swahili" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/cmd/utf8-tokenize.perl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/doc/nemlap94.ps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/doc/sigdat95.ps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/english-par-linux-3.2-utf8.bin.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/install-tagger.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/bulgarian-abbreviations" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/bulgarian-mwls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/catalan-abbreviations" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/czech-abbreviations-utf8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/dutch-abbreviations" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/english-abbreviations" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/english-utf8.par" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/estonian-abbreviations-utf8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/estonian-mwls-utf8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/finnish-abbreviations-utf8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/french-abbreviations" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/french-abbreviations-utf8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/galician-abbreviations-utf8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/galician-mwls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/german-abbreviations" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/german-abbreviations-utf8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/german-lexicon-utf8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/german-lexicon.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/greek-abbreviations-utf8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/italian-abbreviations" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/latin-abbreviations" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/latin-mwls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/middle-high-german-abbreviations-utf8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/polish-abbreviations-utf8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/portuguese-abbreviations-utf8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/romanian-abbreviations" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/romanian-tokens" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/spanish-abbreviations" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/spanish-mwls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/spanish-mwls-utf8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/lib/swahili-abbreviations" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/models/english-utf8.par" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/tagger-scripts.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/TreeTagger/tree-tagger-linux-3.2.1.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6-bin.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/NOTICE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/RELEASE-NOTES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/commons-io-2.6-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/commons-io-2.6-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/commons-io-2.6-test-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/commons-io-2.6-tests.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/commons-io-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/allclasses-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/allclasses-noframe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/constant-values.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/deprecated-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/help-doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/index-all.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/ByteOrderMark.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/ByteOrderParser.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/Charsets.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/CopyUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/DirectoryWalker.CancelException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/DirectoryWalker.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/EndianUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/FileCleaner.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/FileCleaningTracker.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/FileDeleteStrategy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/FileExistsException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/FileSystemUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/FileUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/FilenameUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/HexDump.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/IOCase.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/IOExceptionWithCause.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/IOUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/LineIterator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/TaggedIOException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/class-use/ByteOrderMark.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/class-use/ByteOrderParser.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/class-use/Charsets.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/class-use/CopyUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/class-use/DirectoryWalker.CancelException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/class-use/DirectoryWalker.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/class-use/EndianUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/class-use/FileCleaner.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/class-use/FileCleaningTracker.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/class-use/FileDeleteStrategy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/class-use/FileExistsException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/class-use/FileSystemUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/class-use/FileUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/class-use/FilenameUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/class-use/HexDump.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/class-use/IOCase.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/class-use/IOExceptionWithCause.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/class-use/IOUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/class-use/LineIterator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/class-use/TaggedIOException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/comparator/CompositeFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/comparator/DefaultFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/comparator/DirectoryFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/comparator/ExtensionFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/comparator/LastModifiedFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/comparator/NameFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/comparator/PathFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/comparator/SizeFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/comparator/class-use/CompositeFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/comparator/class-use/DefaultFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/comparator/class-use/DirectoryFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/comparator/class-use/ExtensionFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/comparator/class-use/LastModifiedFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/comparator/class-use/NameFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/comparator/class-use/PathFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/comparator/class-use/SizeFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/comparator/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/comparator/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/comparator/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/comparator/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/AbstractFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/AgeFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/AndFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/CanReadFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/CanWriteFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/ConditionalFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/DelegateFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/DirectoryFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/EmptyFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/FalseFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/FileFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/FileFilterUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/HiddenFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/IOFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/MagicNumberFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/NameFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/NotFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/OrFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/PrefixFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/RegexFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/SizeFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/SuffixFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/TrueFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/WildcardFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/WildcardFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/AbstractFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/AgeFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/AndFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/CanReadFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/CanWriteFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/ConditionalFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/DelegateFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/DirectoryFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/EmptyFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/FalseFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/FileFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/FileFilterUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/HiddenFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/IOFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/MagicNumberFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/NameFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/NotFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/OrFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/PrefixFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/RegexFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/SizeFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/SuffixFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/TrueFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/WildcardFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/WildcardFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/filefilter/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/AutoCloseInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/BOMInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/BoundedInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/BoundedReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/BrokenInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/CharSequenceInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/CharSequenceReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/ClassLoaderObjectInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/CloseShieldInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/ClosedInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/CountingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/DemuxInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/InfiniteCircularInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/MessageDigestCalculatingInputStream.MessageDigestMaintainingObserver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/MessageDigestCalculatingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/NullInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/NullReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/ObservableInputStream.Observer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/ObservableInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/ProxyInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/ProxyReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/ReaderInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/ReversedLinesFileReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/SwappedDataInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/TaggedInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/Tailer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/TailerListener.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/TailerListenerAdapter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/TeeInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/UnixLineEndingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/WindowsLineEndingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/XmlStreamReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/XmlStreamReaderException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/AutoCloseInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/BOMInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/BoundedInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/BoundedReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/BrokenInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/CharSequenceInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/CharSequenceReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/ClassLoaderObjectInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/CloseShieldInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/ClosedInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/CountingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/DemuxInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/InfiniteCircularInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/MessageDigestCalculatingInputStream.MessageDigestMaintainingObserver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/MessageDigestCalculatingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/NullInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/NullReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/ObservableInputStream.Observer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/ObservableInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/ProxyInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/ProxyReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/ReaderInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/ReversedLinesFileReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/SwappedDataInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/TaggedInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/Tailer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/TailerListener.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/TailerListenerAdapter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/TeeInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/UnixLineEndingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/WindowsLineEndingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/XmlStreamReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/class-use/XmlStreamReaderException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/input/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/monitor/FileAlterationListener.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/monitor/FileAlterationListenerAdaptor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/monitor/FileAlterationMonitor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/monitor/FileAlterationObserver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/monitor/FileEntry.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/monitor/class-use/FileAlterationListener.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/monitor/class-use/FileAlterationListenerAdaptor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/monitor/class-use/FileAlterationMonitor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/monitor/class-use/FileAlterationObserver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/monitor/class-use/FileEntry.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/monitor/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/monitor/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/monitor/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/monitor/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/AppendableOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/BrokenOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/ByteArrayOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/ChunkedOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/ChunkedWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/CloseShieldOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/ClosedOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/CountingOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/DeferredFileOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/DemuxOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/FileWriterWithEncoding.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/LockableFileWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/NullOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/NullWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/ProxyOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/ProxyWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/StringBuilderWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/TaggedOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/TeeOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/ThresholdingOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/WriterOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/XmlStreamWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/class-use/AppendableOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/class-use/BrokenOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/class-use/ByteArrayOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/class-use/ChunkedOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/class-use/ChunkedWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/class-use/CloseShieldOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/class-use/ClosedOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/class-use/CountingOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/class-use/DeferredFileOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/class-use/DemuxOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/class-use/FileWriterWithEncoding.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/class-use/LockableFileWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/class-use/NullOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/class-use/NullWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/class-use/ProxyOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/class-use/ProxyWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/class-use/StringBuilderWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/class-use/TaggedOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/class-use/TeeOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/class-use/ThresholdingOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/class-use/WriterOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/class-use/XmlStreamWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/output/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/serialization/ClassNameMatcher.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/serialization/ValidatingObjectInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/serialization/class-use/ClassNameMatcher.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/serialization/class-use/ValidatingObjectInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/serialization/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/serialization/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/serialization/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/org/apache/commons/io/serialization/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/overview-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/overview-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/overview-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/package-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/serialized-form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/commons-io-2.6/docs/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/org.annolab.tt4j-1.2.1-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/org.annolab.tt4j-1.2.1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/lib/org.annolab.tt4j-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/src/TT_Position.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/src/WordProcessing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkippingProblems.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opinion-lexicon-English/negative-words.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opinion-lexicon-English/positive-words.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weight/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weight/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weight/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weight/bin/weight/NegPosWords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weight/dataset-2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weight/negative-words.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weight/positive-words.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weight/src/weight/NegPosWords.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/machinelearning_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PreprocessingTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datas/WEKA/SVM_Model.model" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datas/WEKA/datasetArff2.arff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datas/dataset_lemma.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datas/dataset_pos.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datas/dataset_weight" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datas/negative-words.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datas/positive-words.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/bin/separate-punctuation" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/bin/separate-punctuation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/bin/train-tree-tagger" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/bin/train-tree-tagger" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/bin/tree-tagger" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/bin/tree-tagger" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/bin/tree-tagger-flush" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/bin/tree-tagger-flush" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/#tree-tagger-danish#" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/#tree-tagger-danish#" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/add-korean-sentence-markers.pl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/add-korean-sentence-markers.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/chunker-read-lemma.perl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/chunker-read-lemma.perl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/chunker-write-lemma.perl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/chunker-write-lemma.perl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/filter-chunker-output-french.perl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/filter-chunker-output-french.perl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/filter-chunker-output-german.perl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/filter-chunker-output-german.perl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/filter-chunker-output.perl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/filter-chunker-output.perl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/filter-coordinate-output.perl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/filter-coordinate-output.perl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/filter-german-tags" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/filter-german-tags" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/greek-mwls.pl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/greek-mwls.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/lookup.perl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/lookup.perl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/mwl-lookup.perl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/mwl-lookup.perl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/portuguese-post-tagging" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/portuguese-post-tagging" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/portuguese-splitter.perl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/portuguese-splitter.perl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/reformat-korean-tagger-output.pl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/reformat-korean-tagger-output.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/split-romanian.perl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/split-romanian.perl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tagger-chunker-english" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tagger-chunker-english" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tagger-chunker-french" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tagger-chunker-french" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tagger-chunker-german" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tagger-chunker-german" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tagger-chunker-spanish" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tagger-chunker-spanish" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tokenize-korean.pl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tokenize-korean.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tokenize.pl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tokenize.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-bulgarian" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-bulgarian" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-catalan" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-catalan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-czech" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-czech" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-danish" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-danish" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-dutch" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-dutch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-english" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-english" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-estonian" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-estonian" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-finnish" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-finnish" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-french" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-french" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-galician" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-galician" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-german" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-german" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-greek" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-greek" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-italian" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-italian" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-korean" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-korean" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-latin" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-latin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-middle-high-german" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-middle-high-german" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-polish" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-polish" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-portuguese" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-portuguese" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-portuguese-finegrained" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-portuguese-finegrained" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-portuguese2" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-portuguese2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-romanian" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-romanian" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-russian" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-russian" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-slovak" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-slovak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-slovenian" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-slovenian" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-spanish" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-spanish" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-spanish-ancora" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-spanish-ancora" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-swahili" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/tree-tagger-swahili" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/cmd/utf8-tokenize.perl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/cmd/utf8-tokenize.perl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TreeTagger/install-tagger.sh" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeTagger/install-tagger.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/machinelearning/ByeStepWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/machinelearning/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/machinelearning/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/machinelearning/SkippingProblems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/machinelearning/TT_Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/machinelearning/TT_Position.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/machinelearning/WordProcessing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/machinelearning/WordProcessing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByeStepWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkippingProblems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TT_Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TT_Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WordProcessing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WordProcessing.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -447,12 +98,20 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="46" column="61" lean-forward="true" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
+            <state relative-caret-position="261">
+              <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
               <folding>
-                <element signature="e#1801#1802#0" expanded="true" />
-                <element signature="e#1831#1832#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TT_Position.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TT_Position.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -460,18 +119,39 @@
       <file leaf-file-name="WordProcessing.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WordProcessing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="188" selection-start-line="188" selection-end-line="188" />
+            <state relative-caret-position="3750">
+              <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PreprocessingTool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PreprocessingTool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9">
+              <caret line="327" column="40" lean-forward="true" selection-start-line="327" selection-start-column="40" selection-end-line="327" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>) &amp;&amp;</find>
+      <find>double</find>
+      <find>CC</find>
     </findStrings>
+    <replaceStrings>
+      <replace>float</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -480,14 +160,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/WordProcessing.java" />
+        <option value="$PROJECT_DIR$/src/TT_Position.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/PreprocessingTool.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1980" />
+    <option name="x" value="1975" />
     <option name="y" value="27" />
-    <option name="width" value="1860" />
+    <option name="width" value="1865" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
@@ -495,7 +177,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -517,15 +198,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/commons-io-2.6/commons-io-2.6.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -539,14 +221,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Unnamed" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="machinelearning" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="Application.extract">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="build" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="machinelearning" />
+      <option name="PROGRAM_PARAMETERS" value="build datas/test_data.csv2 datas/new_labels.csv datas/output/test.arff false lemmatize stop_word weight " />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="extract" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="machinelearning" />
+      <option name="PROGRAM_PARAMETERS" value="extract datas/results datas/new_labels.csv" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -586,6 +275,10 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.build" />
+      <item itemvalue="Application.extract" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -602,25 +295,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1975" y="27" width="1865" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32939914" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32939914" />
+      <window_info anchor="bottom" x="0" y="44" width="1910" height="1036" id="Run" order="2" type="WINDOWED" weight="0.50858366" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32983193" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24718499" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24986595" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32939914" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1930295" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -628,10 +318,12 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937434" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.1322978" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32668066" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -641,24 +333,270 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WordProcessing.java</url>
-          <line>315</line>
+          <url />
+          <line>228</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>374</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TT_Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3750">
+          <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PreprocessingTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5265">
+          <caret line="359" column="48" lean-forward="true" selection-start-line="359" selection-start-column="48" selection-end-line="359" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TT_Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4455">
+          <caret line="301" column="9" lean-forward="true" selection-start-line="301" selection-start-column="9" selection-end-line="301" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PreprocessingTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5010">
+          <caret line="342" column="50" lean-forward="true" selection-start-line="342" selection-start-column="50" selection-end-line="342" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3495">
+          <caret line="237" selection-start-line="237" selection-end-line="237" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PreprocessingTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5550">
+          <caret line="378" column="34" lean-forward="true" selection-start-line="378" selection-start-column="34" selection-end-line="378" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4140">
+          <caret line="284" lean-forward="true" selection-start-line="284" selection-end-line="284" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4200">
+          <caret line="284" column="31" selection-start-line="284" selection-start-column="31" selection-end-line="284" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PreprocessingTool.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="78" selection-start-line="41" selection-start-column="78" selection-end-line="41" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5250">
+          <caret line="368" column="31" selection-start-line="368" selection-start-column="31" selection-end-line="368" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="78" selection-start-line="41" selection-start-column="78" selection-end-line="41" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5520">
+          <caret line="368" column="31" selection-start-line="368" selection-start-column="31" selection-end-line="368" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4620">
+          <caret line="308" column="38" selection-start-line="308" selection-start-column="38" selection-end-line="308" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4620">
+          <caret line="308" column="38" selection-start-line="308" selection-start-column="38" selection-end-line="308" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3720">
+          <caret line="248" column="29" lean-forward="true" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4620">
+          <caret line="308" column="38" selection-start-line="308" selection-start-column="38" selection-end-line="308" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4890">
+          <caret line="326" column="62" lean-forward="true" selection-start-line="326" selection-start-column="62" selection-end-line="326" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2820">
+          <caret line="188" selection-start-line="188" selection-end-line="188" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="61" lean-forward="true" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2820">
+          <caret line="188" selection-start-line="188" selection-end-line="188" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-          <folding>
-            <element signature="e#1801#1802#0" expanded="true" />
-            <element signature="e#1831#1832#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -676,33 +614,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datas/dataset.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datasetArff2.arff">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TT_Position.java">
+    <entry file="file://$PROJECT_DIR$/datas/input/SentiWordNet_3.0.0_20130122.txt" />
+    <entry file="jar://$PROJECT_DIR$/lib/commons-io-2.6/commons-io-2.6-sources.jar!/org/apache/commons/io/FileUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="192">
+          <caret line="296" selection-start-line="296" selection-end-line="296" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SkippingProblems.java" />
+    <entry file="file://$PROJECT_DIR$/src/ByeStepWords.java" />
+    <entry file="file://$PROJECT_DIR$/svm_prediction.csv" />
     <entry file="file://$PROJECT_DIR$/src/WordProcessing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="188" selection-start-line="188" selection-end-line="188" />
+        <state relative-caret-position="3750">
+          <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PreprocessingTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="327" column="40" lean-forward="true" selection-start-line="327" selection-start-column="40" selection-end-line="327" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TT_Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="46" column="61" lean-forward="true" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
+        <state relative-caret-position="261">
+          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
           <folding>
-            <element signature="e#1801#1802#0" expanded="true" />
-            <element signature="e#1831#1832#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -713,10 +662,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>machinelearning:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -764,6 +715,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
